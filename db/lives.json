@@ -1,0 +1,56 @@
+[
+  {
+    "name": "sapling",
+    "min": 0,
+    "max": 10,
+    "url": "/assets/sapling.png"
+  },
+  {
+    "name": "toddler",
+    "min": 11,
+    "max": 25,
+    "url": "/assets/toddler.png"
+  },
+  {
+    "name": "juvenile",
+    "min": 26,
+    "max": 99,
+    "url": "/assets/juvenile.png"
+  },
+  {
+    "name": "adolescent",
+    "min": 100,
+    "max": 499,
+    "url": "/assets/adolescent.png"
+  },
+  {
+    "name": "adult",
+    "min": 500,
+    "max": 1499,
+    "url": "/assets/adult.png"
+  },
+  {
+    "name": "senior",
+    "min": 1500,
+    "max": 4999,
+    "url": "/assets/senior.png"
+  },
+  {
+    "name": "beanie",
+    "min": 5000,
+    "max": 10999,
+    "url": "/assets/beanie.gif"
+  },
+  {
+    "name": "beanvine",
+    "min": 11000,
+    "max": 40000,
+    "url": "/assets/beanvine.png"
+  },
+  {
+    "name": "beanstalk",
+    "min": 40001,
+    "max": 50000,
+    "url": "/assets/beanstalk.png"
+  }
+]
