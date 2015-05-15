@@ -100,4 +100,14 @@ describe('PUT /trees/{treeId}/grow', function(){
       done();
     });
   });
+  it('The return tree will have a negative health of -15', function(done){
+    var stub = Sinon.stub(Math, 'random');
+    stub.onCall(0).returns(0);
+    server.inject({method: 'PUT', url: '/trees/f00000000000000000000003/grow', credentials: {_id: 'a00000000000000000000001'}}, function(response){
+      expect(response.statusCode).to.equal(200);
+      expect(response.result.health).to.equal(-15);
+      stub.restore();
+      done();
+    });
+  });
 });
